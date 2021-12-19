@@ -16,7 +16,7 @@ public class C1 {
 	public void tm1() {
 		
 		
-		Reporter.log("=================== test A5 started ==============", true);
+		Reporter.log("=================== test A1 started ==============", true);
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -35,7 +35,7 @@ public class C1 {
 		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("demo12345");
 		Reporter.log("=================== password entered ==============", true);
 		
-		Reporter.log("==============test A5 finished =====================", true);
+		Reporter.log("==============test A1 finished =====================", true);
 		
 	}
 
